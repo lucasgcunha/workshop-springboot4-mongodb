@@ -13,7 +13,7 @@ import java.util.Optional;
 public class PostService {
 
     @Autowired
-    private PostRepository repo;    
+    private PostRepository repo;
 
     public Post findById(String id){
         Optional<Post> obj = repo.findById(id);
@@ -21,6 +21,6 @@ public class PostService {
     }
 
     public List<Post> findByTitle(String text){
-        return repo.findByTitleContainingIgnoreCase(text);
+        return repo.searchTitle(text);
     }
 }
