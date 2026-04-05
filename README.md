@@ -52,6 +52,6 @@ O projeto segue o padrão de camadas para garantir a separação de responsabili
 
 ## 📋 Autor
 
-#Lucas Cunha
+### Lucas Cunha
 
 - LinkedIn: [link](https://linkedin.com/in/lucas-granier-623504263)
