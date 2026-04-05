@@ -50,6 +50,18 @@ O projeto segue o padrão de camadas para garantir a separação de responsabili
    ```bash
    mvn spring-boot:run
 
+## 🔌 Principais Endpoints
+
+| Método | Endpoint | Descrição |
+| :--- | :--- | :--- |
+| **GET** | `/users` | Retorna todos os usuários |
+| **GET** | `/users/{id}` | Retorna um usuário por id |
+| **POST** | `/users` | Cria um novo usuário |
+| **DELETE** | `/users/{id}` | Remove um usuário |
+| **GET** | `/posts/{id}` | Busca um post específico |
+| **GET** | `/posts/titlesearch?text={termo}` | Busca posts por termo no título |
+| **GET** | `/posts/fullsearch?text={termo}&minDate={dataMax}&maxDate={dataMin}` | Busca posts por termo, seja no título, corpo ou comentários, e filtra por data mínima e máxima |
+
 ## 📋 Autor
 
 ### Lucas Cunha
