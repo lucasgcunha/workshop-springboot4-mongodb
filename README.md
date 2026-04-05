@@ -1,7 +1,7 @@
 # Workshop Spring Boot com MongoDB
 
-[![Java Version](https://img.shields.io/badge/Java-17%2B-orange)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)](https://spring.io/projects/spring-boot)
+[![Java Version](https://img.shields.io/badge/Java-25-orange)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0-brightgreen)](https://spring.io/projects/spring-boot)
 [![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-green)](https://www.mongodb.com/)
 
 Este projeto é uma API RESTful construída com o objetivo de demonstrar a integração entre o framework **Spring Boot** e o banco de dados orientado a documentos **MongoDB**. O projeto foca em boas práticas como o uso de DTOs, tratamento de exceções e consultas customizadas.
