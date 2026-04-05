@@ -42,7 +42,7 @@ O projeto segue o padrão de camadas para garantir a separação de responsabili
 ### Passo a passo
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/lucasgcunha/workshop-springboot4-mongodb.git](https://github.com/lucasgcunha/workshop-springboot4-mongodb.git)
+   git clone https://github.com/lucasgcunha/workshop-springboot4-mongodb.git
 2. Entre na pasta do projeto:
    ```bash
    cd workshop-springboot4-mongodb
